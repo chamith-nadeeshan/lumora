@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumora — Table Lamps for a Softer Way of Living</title>
+  <meta name="description" content="Meticulously crafted table lamps designed for moments of quiet warmth. Lumora brings considered light into every room." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="announce">
+    <p>Complimentary shipping on all orders over $200 — every lamp, hand-finished to order.</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <button class="header__burger" aria-label="Open menu" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav nav--left">
+        <a href="#collection" class="nav__link">Shop</a>
+        <a href="#story" class="nav__link">Our Story</a>
+        <a href="#journal" class="nav__link">Journal</a>
+      </nav>
+
+      <a href="#top" class="brand" aria-label="Lumora home">LUMORA</a>
+
+      <nav class="nav nav--right">
+        <span class="nav__region">USD</span>
+        <a href="#" class="nav__link" aria-label="Account">Account</a>
+        <a href="#" class="nav__link nav__cart">Cart <span class="nav__count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#collection">Shop</a>
+    <a href="#story">Our Story</a>
+    <a href="#journal">Journal</a>
+    <a href="#">Account</a>
+    <a href="#">Cart (0)</a>
+  </div>
+
+  <main id="top">
+
+    <!-- Hero carousel -->
+    <section class="hero">
+      <div class="hero__slide is-active" data-tone="dusk">
+        <div class="hero__art"><div class="lamp lamp--dome"></div></div>
+        <div class="hero__content">
+          <p class="eyebrow">New — The Aurelle Collection</p>
+          <h1 class="hero__title">Warmth, perfected.</h1>
+          <p class="hero__sub">Table lamps crafted for the quiet hours — when the day slows and the light softens.</p>
+          <a href="#collection" class="btn btn--light">Shop the collection</a>
+        </div>
+      </div>
+
+      <div class="hero__slide" data-tone="sand">
+        <div class="hero__art"><div class="lamp lamp--column"></div></div>
+        <div class="hero__content">
+          <p class="eyebrow">Hand-finished in small batches</p>
+          <h1 class="hero__title">Light, made slow.</h1>
+          <p class="hero__sub">Each shade is turned, dyed and assembled by hand — no two quite alike.</p>
+          <a href="#story" class="btn btn--light">Discover our craft</a>
+        </div>
+      </div>
+
+      <div class="hero__slide" data-tone="clay">
+        <div class="hero__art"><div class="lamp lamp--globe"></div></div>
+        <div class="hero__content">
+          <p class="eyebrow">Designed to endure</p>
+          <h1 class="hero__title">A gentler glow.</h1>
+          <p class="hero__sub">Dimmable, warm-toned light that flatters the room and everyone in it.</p>
+          <a href="#collection" class="btn btn--light">Explore</a>
+        </div>
+      </div>
+
+      <div class="hero__dots" id="heroDots"></div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro reveal">
+      <p class="eyebrow">Lumora</p>
+      <h2 class="intro__title">Lighting designed for a softer way of living.</h2>
+      <p class="intro__body">We believe in the power of pause — in rooms that invite you to slow down. Meticulously made, our table lamps bring considered, comforting light into the moments that matter most.</p>
+    </section>
+
+    <!-- Product grid -->
+    <section class="collection" id="collection">
+      <div class="section-head reveal">
+        <h2 class="section-head__title">Illuminate slowly</h2>
+        <a href="#" class="section-head__link">View all</a>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal">
+          <a href="#" class="card__media" data-tone="dusk"><div class="lamp lamp--dome lamp--sm"></div></a>
+          <div class="card__body">
+            <h3 class="card__name">The Aurelle</h3>
+            <p class="card__meta">Dome shade · Oak base</p>
+            <div class="swatches"><span style="--s:#caa989"></span><span style="--s:#9a9387"></span><span style="--s:#3d3a35"></span></div>
+            <p class="card__price">$240</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <a href="#" class="card__media" data-tone="sand"><div class="lamp lamp--column lamp--sm"></div></a>
+          <div class="card__body">
+            <h3 class="card__name">The Soléa</h3>
+            <p class="card__meta">Linen shade · Travertine</p>
+            <div class="swatches"><span style="--s:#e7ddce"></span><span style="--s:#c8b7a0"></span><span style="--s:#6b6253"></span></div>
+            <p class="card__price">$285</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <a href="#" class="card__media" data-tone="clay"><div class="lamp lamp--globe lamp--sm"></div></a>
+          <div class="card__body">
+            <h3 class="card__name">The Mira</h3>
+            <p class="card__meta">Opal glass · Brass stem</p>
+            <div class="swatches"><span style="--s:#d9b48f"></span><span style="--s:#b08d6a"></span><span style="--s:#2e2a26"></span></div>
+            <p class="card__price">$320</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <a href="#" class="card__media" data-tone="sage"><div class="lamp lamp--dome lamp--sm"></div></a>
+          <div class="card__body">
+            <h3 class="card__name">The Olin</h3>
+            <p class="card__meta">Pleated shade · Walnut</p>
+            <div class="swatches"><span style="--s:#a7ad98"></span><span style="--s:#cbb3a0"></span><span style="--s:#4a4b40"></span></div>
+            <p class="card__price">$265</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="values">
+      <div class="values__item reveal">
+        <span class="values__icon">◠</span>
+        <h3>Inviting pause</h3>
+        <p>Warm, dimmable light that turns any corner into a place to rest.</p>
+      </div>
+      <div class="values__item reveal">
+        <span class="values__icon">✶</span>
+        <h3>Impeccably crafted</h3>
+        <p>Turned by hand in small batches, from materials chosen to age beautifully.</p>
+      </div>
+      <div class="values__item reveal">
+        <span class="values__icon">◍</span>
+        <h3>Considered materials</h3>
+        <p>Solid timber, natural linen and mouth-blown glass — nothing superfluous.</p>
+      </div>
+      <div class="values__item reveal">
+        <span class="values__icon">♺</span>
+        <h3>Made to endure</h3>
+        <p>Timeless forms, rewirable fittings and a five-year warranty on every lamp.</p>
+      </div>
+    </section>
+
+    <!-- Feature banner -->
+    <section class="feature" id="story">
+      <div class="feature__art" data-tone="dusk"><div class="lamp lamp--column"></div></div>
+      <div class="feature__content reveal">
+        <p class="eyebrow">Our story</p>
+        <h2 class="feature__title">Designed to endure</h2>
+        <p class="feature__body">Lumora began with a simple question: what if light could feel less like a fixture and more like a feeling? Each lamp is drawn, turned and finished in our studio — crafted for the moments of perfect quiet at the end of a day.</p>
+        <a href="#" class="btn btn--dark">Read our story</a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="quotes reveal">
+      <div class="quotes__track" id="quotesTrack">
+        <figure class="quote is-active">
+          <blockquote>“Relaxed luxury, redefined. The glow is unlike anything else in our home.”</blockquote>
+          <figcaption>— Marin H., Melbourne</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“It arrived like a piece of art. We dim it every evening and the room just exhales.”</blockquote>
+          <figcaption>— Davíd L., Lisbon</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Beautifully made, quietly perfect. Exactly the softness our bedroom was missing.”</blockquote>
+          <figcaption>— Priya S., London</figcaption>
+        </figure>
+      </div>
+      <div class="quotes__dots" id="quotesDots"></div>
+    </section>
+
+    <!-- Journal -->
+    <section class="journal" id="journal">
+      <div class="section-head reveal">
+        <h2 class="section-head__title">From the journal</h2>
+        <a href="#" class="section-head__link">All stories</a>
+      </div>
+      <div class="journal__grid">
+        <article class="post reveal">
+          <a href="#" class="post__media" data-tone="sand"></a>
+          <p class="post__cat">Living slow</p>
+          <h3 class="post__title">The art of the evening wind-down</h3>
+        </article>
+        <article class="post reveal">
+          <a href="#" class="post__media" data-tone="clay"></a>
+          <p class="post__cat">Craft</p>
+          <h3 class="post__title">How a single shade takes shape</h3>
+        </article>
+        <article class="post reveal">
+          <a href="#" class="post__media" data-tone="sage"></a>
+          <p class="post__cat">At home</p>
+          <h3 class="post__title">Layering light across a room</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="signup reveal">
+      <h2 class="signup__title">Stay in the warm.</h2>
+      <p class="signup__sub">Join us for new releases, slow-living notes and early access. No noise — only light.</p>
+      <form class="signup__form" id="signupForm">
+        <input type="email" placeholder="Your email address" required aria-label="Email address" />
+        <button type="submit" class="btn btn--dark">Subscribe</button>
+      </form>
+      <p class="signup__msg" id="signupMsg" aria-live="polite"></p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="brand brand--footer">LUMORA</span>
+      <p>Table lamps for a softer way of living. Hand-finished to order.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Shop</h4>
+      <a href="#">All lamps</a>
+      <a href="#">The Aurelle</a>
+      <a href="#">Gift cards</a>
+    </div>
+    <div class="footer__col">
+      <h4>Learn more</h4>
+      <a href="#">Our story</a>
+      <a href="#">Craft & materials</a>
+      <a href="#">Journal</a>
+    </div>
+    <div class="footer__col">
+      <h4>Support</h4>
+      <a href="#">Shipping</a>
+      <a href="#">Returns</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Lumora. All rights reserved.</p>
+      <p>Designed for moments of quiet warmth.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
